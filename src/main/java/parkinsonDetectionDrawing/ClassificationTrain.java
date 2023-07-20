@@ -2,7 +2,7 @@ package parkinsonDetectionDrawing;
 
 import java.io.File;
 
-import static parkinsonDetectionDrawing.ImageProjection.getProjection;
+import static parkinsonDetectionDrawing.ImageProjectionMatriz.getProjection;
 
 public class ClassificationTrain {
     private static void createProjectionTrain(){

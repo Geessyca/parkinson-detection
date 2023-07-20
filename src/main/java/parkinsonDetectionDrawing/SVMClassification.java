@@ -23,7 +23,7 @@ public class SVMClassification {
             // Criar classificador SVM com o algoritmo SMO
             SMO svm = new SMO();
             //svm.setKernel(new RBFKernel());
-            svm.setKernel(new NormalizedPolyKernel());
+            //svm.setKernel(new NormalizedPolyKernel());
             System.out.println(svm.getKernel());
             svm.buildClassifier(trainData);
 
